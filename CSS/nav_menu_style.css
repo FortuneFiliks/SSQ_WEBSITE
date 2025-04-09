@@ -1,0 +1,45 @@
+/*****NAV SECTION***/
+.nav_section{
+	background : linear-gradient(45deg,#0047ab,#000133);
+	color : #ffffff;
+	height : 65px;
+	position : fixed;
+	width : 100%;
+	z-index : 5;
+	box-shadow: 1px 1px 3px 3px #3e3e3e4C;
+	top : 0;
+}
+
+.nav_section_content{
+	display : flex;
+	align-items : center;
+}
+
+.menu{
+	padding-right : 30%;
+	padding-left : 2%;
+}
+.fa-bars{
+	font-size : 2rem;
+}
+.brand_logo{
+	font-weight : 600;
+	font-size : 2.5rem;
+	padding-right : 5%;
+}
+
+.login_link{
+	color :;
+	font-weight : 600;
+	font-size : 1.15rem;
+	padding-left : 3%;
+	color : #f2e6ca;
+}
+.icons{
+	padding-left : 5%;
+	
+}
+
+.fa-shopping-cart{
+	font-size : 1.25rem;
+}

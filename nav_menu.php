@@ -1,0 +1,22 @@
+	      <section class = "nav_section">
+		          <div class = "nav_section_content">
+				      <div class = "menu">
+					      <i class="fas fa-bars"></i>
+					  </div>
+					  <h1 class = "brand_logo"> SSQ.com.ng</h1>
+					  <form class = "search">
+					       <div class = "input-group">
+							   <input type = "text" placeholder = "search for item...">
+						       <div class = "input-group-append">
+							       <span class = "input-group-text">
+							           <i class="fas fa-search"></i>
+								   <span>
+							   </div>
+						   </div>
+					  </form>
+					  <h3 class = "login_link"> login/sign up </h2>
+					  <div class = "icons">
+					      <i class="fas fa-shopping-cart"></i>
+					  </div>
+				  </div>
+		  </section>

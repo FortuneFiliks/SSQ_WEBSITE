@@ -1,0 +1,122 @@
+*{
+   padding : 0;
+   margin : 0;
+}
+:root{
+	--alpha_bg_color : #cce1ff4C;
+	--alpha_text_color : #223a66;
+}
+
+body{
+	background: #cce1ff66;
+}
+
+
+/*****FIRST SECTION***/
+
+.first_section{
+	width : 100%;
+	height : 80vh;
+	background-image : url("../IMAGES/front-view-cyber-monday-shopping-cart-with-bags-copy-space.jpg");
+	background-size : cover;
+	margin-top : -70px;
+}
+
+.first_section_heading{
+	text-align : left;
+	font-weight : 700;
+    padding-top : 300px;
+    font-size : 4rem;
+    color : #ffffff;
+}
+
+
+/******SECOND SECTION******/
+.second_section{
+	width : 100%;
+    height : 100vh;
+}
+
+
+
+.second_section_flex{
+	display :flex;
+	width : 95%;
+	padding-top : 50px;
+	margin-right : auto;
+	margin-left : auto;
+	font-size : 1.5rem;
+}
+
+.second_section_flex>.alpha_item{
+	width : 69%;
+	background : #ffffff;
+	display : flex;
+	margin-right : 1%;
+	box-shadow: 1px 1px 3px 3px #3e3e3e0c;
+	height : 80vh;
+}
+
+.left_alpha_item{
+    width : 60%;	
+	
+}
+
+.right_alpha_item{
+	width : 40%;
+	position : relative;
+}
+
+
+
+.product_image{
+	width : 100%;
+	position : absolute;
+	/* display : inline-block; */
+}
+
+.product_small_images{
+	position : absolute;
+	top : 72%;
+}
+
+.small_image{
+	width : 77.5px;
+	height : 90px;
+	border : solid 0.5px var(--alpha_text_color);
+	cursor : pointer;
+}
+
+
+
+.prev_img_btn{
+	position : absolute;
+	top : 30%;
+	width : 50px;
+	height : 50px;
+	border-radius : 100%;
+	border : none;
+	outline : none;
+}
+
+.next_img_btn{
+	position : absolute;
+	top : 30%;	
+	width : 50px;
+	height : 50px;
+	border-radius : 100%;
+	border : none;
+	outline : none;
+	right : 0;
+}
+
+
+
+.second_section_flex>.beta_item{
+	width : 30%;
+	background : #ffffff;
+	height : 50vh;	
+}
+
+
+
